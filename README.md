@@ -1,12 +1,23 @@
-# Oracle-APEX-Smart-Employee-Performance-Management-System
+# AI Employee Performance Management System
+
 ## Project Background
 
-This project was developed during
-### my training at the Digital Transformation Agency.
+This project was developed during my training at the Digital Transformation Agency.
 
-The project focuses on applying artificial intelligence concepts to improve business processes by creating a smart employee task assignment system that helps organizations select the most suitable employee for each task based on skills, experience, workload, and performance.
+## Project Link
+https://id-preview--394a9494-8a74-4d9a-81c8-3354174df481.lovable.app/employees
+
+
+---
+
+## Description
+
+Oracle APEX Smart Employee Performance Management System is a smart digital transformation solution designed to improve employee management processes using Artificial Intelligence concepts.
+
+The system helps organizations assign tasks to the most suitable employees by analyzing employee skills, experience, workload, and performance metrics.
 
 The project demonstrates the practical application of:
+
 - Artificial Intelligence
 - Data Analysis
 - Digital Transformation Solutions
@@ -15,82 +26,115 @@ The project demonstrates the practical application of:
 
 ---
 
-## Overview
+# Overview
 
-AI Employee Task Assignment System is a smart web application that helps managers assign tasks to the most suitable employees automatically.
+The system provides an intelligent platform that helps managers make better decisions when assigning tasks.
 
-The system analyzes employee skills, experience, workload, and performance to recommend the best candidate for each task using an AI-based scoring algorithm.
+Using an AI-based recommendation algorithm, the application evaluates employee information and automatically recommends the best candidate based on multiple factors.
 
 ---
 
-## Features 
+# Features
 
-### AI Task Recommendation
+## AI Task Recommendation
 
-- Enter any task name
-- Select task priority
-- Analyze all employees automatically
-- Recommend the best employee
-- Display match score and recommendation reasons
+The system allows managers to:
 
-### Employee Management
+- Enter any task name.
+- Select task priority.
+- Analyze available employees automatically.
+- Recommend the most suitable employee.
+- Display the match score and recommendation reasons.
 
-- Generate 100 realistic employee records
-- Employee profiles
-- Skills and certifications
-- Experience tracking
-- Workload monitoring
-- Availability status
+---
 
-### Dashboard Analytics
+## Employee Management
 
-- Total employees count
-- Available employees
-- Busy employees
-- Average completion rate
-- Department statistics
-- Performance charts
+The system includes:
 
-### Search and Filtering
+- 100 realistic employee records.
+- Employee profiles.
+- Skills management.
+- Certifications tracking.
+- Experience analysis.
+- Workload monitoring.
+- Availability status.
 
-Employees can be filtered by:
+Each employee contains:
+
+- Employee ID
+- Full Name
+- Department
+- Job Title
+- Skills
+- Years of Experience
+- Current Tasks
+- Completion Rate
+- Certifications
+- Availability Status
+
+---
+
+# Dashboard Analytics
+
+The dashboard provides:
+
+- Total employees.
+- Available employees.
+- Busy employees.
+- Average completion rate.
+- Department statistics.
+- Performance analytics.
+- Workload analysis.
+
+---
+
+# Search and Filtering
+
+Users can filter employees by:
 
 - Department
 - Skills
 - Experience
-- Availability status
-
-### Performance Ranking
-
-Includes:
-
-- Top performing employees
-- Highest completion rate
-- Most experienced employees
-
-### Task History
-
-Stores:
-
-- Task name
-- Assigned employee
-- Assignment date
-- Priority
-- Completion status
-
-### Notifications
-
-Provides alerts for:
-
-- Task assigned successfully
-- Employee workload is high
-- No suitable employee found
+- Availability Status
 
 ---
 
-# AI Recommendation Algorithm 
+# Performance Ranking
 
-The system calculates the employee match score based on:
+The ranking module displays:
+
+- Top performing employees.
+- Highest completion rates.
+- Most experienced employees.
+
+---
+
+# Task History
+
+The system stores previous recommendations, including:
+
+- Task name.
+- Assigned employee.
+- Assignment date.
+- Priority level.
+- Completion status.
+
+---
+
+# Notifications
+
+The system provides alerts for:
+
+- Successful task assignment.
+- High employee workload.
+- No suitable employee found.
+
+---
+
+# AI Recommendation Algorithm
+
+The employee match score is calculated using the following criteria:
 
 | Criteria | Weight |
 |----------|--------|
@@ -99,9 +143,9 @@ The system calculates the employee match score based on:
 | Current Workload | 20% |
 | Performance Rate | 10% |
 
-Formula:
+### Formula
 
-```
+```text
 Match Score =
 (Skill Match × 50%)
 +
@@ -112,34 +156,20 @@ Match Score =
 (Performance × 10%)
 ```
 
-The employee with the highest score is selected automatically.
+The employee with the highest score is automatically selected.
 
 ---
 
-# Technologies Used 
-
-- React
-- TypeScript
-- JavaScript
-- Tailwind CSS
-- Modern UI Components
-- Charts and Data Visualization
-- Local Sample Database
-
----
-
-# Application Pages 
+# Application Pages
 
 ## Dashboard
 
 Displays:
 
-- Total employees
-- Available employees
-- Busy employees
-- Average completion rate
-- Department statistics
-- Performance charts
+- Employee statistics.
+- Department distribution.
+- Performance analytics.
+- Workload status.
 
 ---
 
@@ -147,26 +177,24 @@ Displays:
 
 Allows managers to:
 
-- Enter task name
-- Select priority
-- Get AI employee recommendation
+- Enter task details.
+- Select task priority.
+- Receive an AI recommendation.
 
 ---
 
-## Employees Page
+## Employees
 
 Features:
 
-- View all employees
-- Search employees
-- Filter by department
-- Filter by skills
-- Filter by experience
-- Filter by availability
+- View all employees.
+- Search employees.
+- Filter employees.
+- View employee profiles.
 
 ---
 
-## Employee Profile Page
+## Employee Profile
 
 Displays:
 
@@ -184,63 +212,77 @@ Displays:
 
 ---
 
-## Ranking Page
+## Performance Ranking
 
-Shows:
+Displays:
 
-- Top performing employees
-- Highest completion rate
-- Most experienced employees
+- Top performing employees.
+- Highest completion rates.
+- Most experienced employees.
 
 ---
 
-## Task History Page
+## Task History
 
-Displays previous recommendations:
+Displays:
 
-- Task name
-- Assigned employee
-- Date
-- Priority
-- Completion status
+- Task name.
+- Assigned employee.
+- Assignment date.
+- Priority.
+- Completion status.
 
 ---
 
 # Example Recommendation
 
-**Task:**
+**Task**
 
 Develop Oracle APEX Page
 
-**Recommended Employee:**
+**Recommended Employee**
 
 Ahmed Ali
 
-**Department:**
+**Department**
 
 Software Development
 
-**Match Score:**
+**Match Score**
 
 96%
 
-**Reasons:**
+**Recommendation Reasons**
 
-✓ Skill match  
-✓ High experience  
-✓ Low workload  
-✓ Excellent completion rate  
+- Strong skill match.
+- High experience level.
+- Low workload.
+- Excellent completion rate.
 
 ---
 
-# Future Improvements 🔮
+# Technologies Used
 
-- Connect with real databases
-- Add machine learning models
-- Real employee data integration
-- User authentication
-- Automatic task classification
-- Advanced AI prediction
+- Oracle APEX
+- React
+- TypeScript
+- JavaScript
+- Tailwind CSS
+- Modern UI Components
+- Charts and Data Visualization
+- Local Sample Database
+
+---
+
+# Future Improvements
+
+- Connect with enterprise databases.
+- Integrate machine learning models.
+- Use real employee data.
+- Add user authentication.
+- Implement automatic task classification.
+- Enhance AI prediction capabilities.
+- Add real-time performance monitoring.
 
 ---
 
@@ -258,7 +300,7 @@ Install dependencies:
 npm install
 ```
 
-Run the project:
+Run the application:
 
 ```bash
 npm run dev
@@ -266,6 +308,8 @@ npm run dev
 
 ---
 
+---
+
 # License
 
-This project is created for demonstration and educational purposes.
+This project was developed as part of my training at the Digital Transformation Agency and is intended for demonstration and educational purposes.
