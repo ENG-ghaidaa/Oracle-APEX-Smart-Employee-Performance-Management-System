@@ -2,7 +2,7 @@
 ## Project Background
 
 This project was developed during
-# my training at the Digital Transformation Agency.
+### my training at the Digital Transformation Agency.
 
 The project focuses on applying artificial intelligence concepts to improve business processes by creating a smart employee task assignment system that helps organizations select the most suitable employee for each task based on skills, experience, workload, and performance.
 
