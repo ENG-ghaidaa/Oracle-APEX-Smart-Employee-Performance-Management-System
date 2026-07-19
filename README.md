@@ -1,7 +1,8 @@
 # Oracle-APEX-Smart-Employee-Performance-Management-System
 ## Project Background
 
-This project was developed during my training at the Digital Transformation Agency.
+This project was developed during
+# my training at the Digital Transformation Agency.
 
 The project focuses on applying artificial intelligence concepts to improve business processes by creating a smart employee task assignment system that helps organizations select the most suitable employee for each task based on skills, experience, workload, and performance.
 
@@ -22,7 +23,7 @@ The system analyzes employee skills, experience, workload, and performance to re
 
 ---
 
-## Features 🚀
+## Features 
 
 ### AI Task Recommendation
 
@@ -87,7 +88,7 @@ Provides alerts for:
 
 ---
 
-# AI Recommendation Algorithm 🧠
+# AI Recommendation Algorithm 
 
 The system calculates the employee match score based on:
 
@@ -115,7 +116,7 @@ The employee with the highest score is selected automatically.
 
 ---
 
-# Technologies Used 💻
+# Technologies Used 
 
 - React
 - TypeScript
@@ -127,7 +128,7 @@ The employee with the highest score is selected automatically.
 
 ---
 
-# Application Pages 📱
+# Application Pages 
 
 ## Dashboard
 
